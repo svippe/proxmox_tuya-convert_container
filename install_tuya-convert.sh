@@ -65,7 +65,7 @@ git clone --quiet https://github.com/ct-Open-Source/tuya-convert
 
 # Configure tuya-convert
 msg "Configuring tuya-convert..."
-./configure_tuya-convert.sh
+bash configure_tuya-convert.sh
 
 # Install tuya-convert
 msg "Running tuya-convert/install_prereq.sh..."
